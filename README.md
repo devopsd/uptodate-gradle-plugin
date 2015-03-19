@@ -28,11 +28,11 @@ New versions available:
 #### Step 1: Add dependency to JCenter and to the plugin
 ```
 buildscript {
-    repositories {	
+    repositories {
         jcenter()
     }
     dependencies {
-        classpath('com.ofg:uptodate-gradle-plugin:1.3.0')
+        classpath 'com.ofg:uptodate-gradle-plugin:1.3.0'
     }
 }
 ```
